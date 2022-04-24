@@ -1,0 +1,247 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@300;500&family=Roboto:wght@100;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+html{
+    font-family:'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/*TOP BAR*/
+.top-bar{
+    background-color: #1e1e1e;
+    height: 59px;
+}
+.top-bar p{
+    font-size: 10px;
+    line-height: 59px;
+}
+.top-bar .close{
+    top:21px;
+    right: 0;
+    bottom: 26px;
+}
+
+/*MAIN HEAER*/
+.eveland{
+    letter-spacing: 3px;
+}
+
+.nav-link-color{
+    color: rgb(51, 51, 51);
+    font-weight: 500;
+}
+.badge-quantity{
+    height: 24px;
+    width: 24px;
+    top:-4.20px;
+    right:-11px;
+}
+/* SECTION VELCRO */
+.text-grey-dark{
+    color: #666;
+    margin-left: -9%;
+}
+.box{
+    background-color: rgb(241, 241, 241);
+    width: 105px;
+    height: 128px;
+}
+.hat-red{
+    height:678px;
+    width: 561px;
+    padding: 80px 0;
+    background: #f1f1f1;
+}
+.btn-guide{
+    width: 148px;
+    height: 40px;
+    background-color: rgb(243, 243, 243);
+    color: #a8a8a8;
+    font-size: 14p;
+}
+.text-grey{
+    color: #a8a8a8;
+}
+.size .ms-26{
+    margin-left: 26px;
+    margin-top: 23px;
+}
+.color .ms-26{
+    margin-left: 26px;
+}
+.color span{
+    border-bottom: 2px solid #000;
+    font-size: 12px;   
+    width: 54px;
+}
+.size span{
+    border-bottom: 2px solid #000;
+    font-size: 12px;   
+    width: 54px;
+}
+.size-item{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #868686;
+    line-height: 40px;
+    text-align: center;
+    margin:0 5px;
+    color: #868686;
+}
+.size-item:hover, .size-item:active{
+    background: #48c8fd;
+    color: #fff;
+    border-color: transparent;
+}
+.btn-primary-dark{
+    width: 190px;
+    height: 55px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.quantity{
+    max-width: 63px;
+    height:55px;
+    border:2px solid #000;
+    color: #333333;
+    margin-left: 7px;
+}
+.wishlist{
+    font-weight:700;
+    font-size: 12px;
+    margin-top: 34px;
+}
+.text-grey{
+    color: #b1b1b1;
+}
+.review{
+    color: #a0a0a0;
+}
+.fw-600{
+    font-weight: 600;
+}
+/*SECTION FASTENER*/
+.btn-primary-light{
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #999999;
+    
+    min-width: 168px;
+    min-height: 50px;
+}
+ .btn-primary-light.active{
+    background-color: rgb(72, 200, 253)!important;
+    color:#fff;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.fs-40{
+    font-size: 40px;
+    color: rgb(1, 1, 1);
+    font-weight: 400;
+    
+}
+.pe-11{
+    padding-right: 5%;
+    margin-top: 30%;
+    margin-left: 15%;
+}
+.text-grey{
+    color: rgb(168, 168, 168);
+    font-size: 14px;
+}
+.buy-now{
+    border-bottom: 3px solid #000;
+}
+.bg-grey{
+    color: #e4e4e4;
+}
+/*PRODUCT*/
+.product{
+    padding-bottom: 198px;
+}
+.fs-22{
+    font-size: 22px;
+}
+.mt-287{
+    margin-top: 287px;
+}
+.sneaker-layer{
+    padding: 27px;
+    background-color: #f1f1f1;
+    width: 320px;
+}
+.slick-dots{
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+    list-style: none;
+    position: absolute;
+    top: 410px;
+    right:50%;
+}
+.slick-dots li:nth-child(2){
+    margin: 0 16px;
+}
+.slick-dots .slick-active button{
+    background-color: #000;
+}
+.slick-dots button{
+    font-size:0;
+    height: 12px;
+    width: 12px;
+    background: #cfcfcf;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+}
+  
+/*FOOTER*/
+footer{
+    background-color: #161616;
+    height: 424px;
+}
+footer h3{
+    margin-top:70px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+footer .col hr{
+    background-color: #fff;
+    width:55px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.text-light-white{
+    color: #868686;
+}
+ .social-icon{
+     background-color: #222;
+     width: 46px;
+     height: 45px;
+ }
+ 
+
+
+footer .col-md-4 hr{
+    background-color: #48c8fd;
+    height: 2px;
+}
+
+footer >hr{
+    background-color: #2a2a2a;
+}
+footer .container:last-child{
+    height:76px;
+}
+footer .container:last-child .row{
+    line-height: 76px;
+}
