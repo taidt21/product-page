@@ -113,13 +113,33 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="d-flex">
-                        <div class="boxs">
-                            <div class="box box1 mt-3"></div>
-                            <div class="box box2 mt-3"></div>
-                            <div class="box box3 mt-3"></div>
+                        <div class="boxs" id="myBtnContainer">
+                            
+                                <a href="#" class="btn box box1 d-block mt-3 active" onclick="filterSelection('red')">
+                                    <img src="img/27785_ab0ec4f593-h41026848g_alt2.png" alt="red" class="img-fluid">
+                                </a>
+                            
+                            
+                                <a href="#" class="btn box box1 d-block mt-3" onclick="filterSelection('green')">
+                                    <img src="img/27782_5288cc9be0-h410267743_alt2.jpg" alt="green" class="img-fluid">
+                                </a>
+                            
+                            
+                                <a href="#" class="btn box box1 d-block mt-3" onclick="filterSelection('dark')">
+                                <img src="img/27560_2295eae516-h409730933.jpg" alt="dark" class="img-fluid">
+                                </a>
+                            
                         </div>
-                        <div class="hat-red text-center ms-3">
-                            <img src="img/27785_ab0ec4f593-h41026848g_alt2.png" alt="hat-red" class="img-fluid">
+                        <div class="hat-red text-center ms-3 container-filter">
+                            <div class="filterDiv red">
+                                <img src="img/27785_ab0ec4f593-h41026848g_alt2.jpg" alt="hat-red" class="img-fluid">
+                            </div>
+                            <div class="filterDiv green">
+                                <img src="img/27782_5288cc9be0-h410267743_alt2.jpg" alt="green" class="img-fluid filterDiv green">
+                            </div>
+                            <div class="filterDiv dark">
+                                <img src="img/27560_2295eae516-h409730933.jpg" alt="dark" class="img-fluid">
+                            </div>
                         </div>
                     </div>
                 </div>

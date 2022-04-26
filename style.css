@@ -53,6 +53,13 @@ a{
     width: 105px;
     height: 128px;
 }
+
+.filterDiv{
+    display: none;
+}
+.show{
+    display: block;
+}
 .hat-red{
     height:678px;
     width: 561px;
