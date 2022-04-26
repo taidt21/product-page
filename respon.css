@@ -6,3 +6,9 @@
         max-width: 1640px;
     }
 }
+@media(max-width:992px){
+    .cart-reponsive{
+        width: 30px!important;
+        height: 30px!important;
+    }
+}
