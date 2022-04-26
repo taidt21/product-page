@@ -60,6 +60,7 @@ a{
 .show{
     display: block;
 }
+
 .hat-red{
     height:678px;
     width: 561px;
@@ -201,10 +202,9 @@ input[type=radio]{
 .mt-287{
     margin-top: 287px;
 }
-.sneaker-layer{
-    padding: 27px;
-    background-color: #f1f1f1;
+.sneaker img{
     width: 320px;
+    height: 387px;
 }
 .slick-dots{
     display: -webkit-box!important;

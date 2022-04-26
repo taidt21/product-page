@@ -46,16 +46,18 @@ $('.autoplay').slick({
 
 
 
-  filterSelection("all")
+  filterSelection("red")
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("filterDiv");
-  if (c == "all") c = "";
+  if (c == "red") c = "red";
   for (i = 0; i < x.length; i++) {
     w3RemoveClass(x[i], "show");
     if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
   }
 }
+
+
 
 function w3AddClass(element, name) {
   var i, arr1, arr2;
