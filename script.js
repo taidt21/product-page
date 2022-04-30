@@ -90,3 +90,12 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
+
+const canvas = document.querySelector('.off-canvas')
+const button = document.querySelector('.close')
+button.addEventListener("click", _ => {
+  // var canvasWidth = canvas.clientWidth;
+ canvas.classList.toggle('open')
+ 
+ })

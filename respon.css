@@ -5,10 +5,38 @@
     header .container{
         max-width: 1640px;
     }
+   
 }
 @media(max-width:992px){
     .cart-reponsive{
         width: 30px!important;
         height: 30px!important;
+    }
+    .product-1{
+        flex-direction: column-reverse!important;
+        justify-content: center!important;
+    }
+    .product-1 .filterDiv img{
+            width:562px;
+    }
+    .boxs{
+        flex-direction: row!important;
+        justify-content:space-around;
+    }
+    .mt-287{
+        margin-top: 0!important;
+    }
+    
+}
+@media(min-width:992px){
+    .product-1 .filterDiv img{
+        width: 562px;
+        height: 687px;
+    }
+    .product img{
+        margin: 0 !important;
+    }
+    .product{
+        padding-bottom: 198px!important;
     }
 }
