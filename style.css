@@ -141,7 +141,7 @@ input[type=radio]{
     margin:0 5px;
     color: #868686;
 }
-.size-item:hover, .size-item:active{
+.size-item:hover, .size-item:active, .size-item:focus{
     background: #48c8fd!important;
     color: #fff;
     border-color: transparent;
