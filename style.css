@@ -47,7 +47,6 @@ a{
 /* SECTION VELCRO */
 .text-grey-dark{
     color: #666;
-    margin-left: -9%;
 }
 .box{
     background-color: rgb(241, 241, 241);
@@ -108,6 +107,31 @@ input[type=radio]{
     font-size: 12px;   
     width: 54px;
 }
+.wishlist{
+    margin-top: 34px;
+}
+.wishlist a{
+    font-size: 12px;
+    font-weight: 700;
+    
+}
+.fa-heart::before {
+    content: "\f08a "!important;
+    font-size: 20px;
+}
+.fa-heart-o::before{
+    content:"\f004"!important ;
+}
+
+.Shape_1 {
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 960px;
+    top: 798px;
+   
+    z-index: 117;
+  }
+  
 .size-item{
     width: 40px;
     height: 40px;
@@ -118,7 +142,7 @@ input[type=radio]{
     color: #868686;
 }
 .size-item:hover, .size-item:active{
-    background: #48c8fd;
+    background: #48c8fd!important;
     color: #fff;
     border-color: transparent;
 }
@@ -134,11 +158,6 @@ input[type=radio]{
     border:2px solid #000;
     color: #333333;
     margin-left: 7px;
-}
-.wishlist{
-    font-weight:700;
-    font-size: 12px;
-    margin-top: 34px;
 }
 .text-grey{
     color: #b1b1b1;
@@ -196,10 +215,6 @@ input[type=radio]{
 .mt-287{
     margin-top: 287px;
 }
-.sneaker img{
-    width: 320px;
-    height: 387px;
-}
 .slick-dots{
     display: -webkit-box!important;
     display: -ms-flexbox!important;
@@ -249,6 +264,10 @@ footer .col hr{
      background-color: #222;
      width: 46px;
      height: 45px;
+ }
+ .social-icon:hover{
+     background-color: #fff;
+     color: #000!important;
  }
 footer .col-md-4 hr{
     background-color: #48c8fd;

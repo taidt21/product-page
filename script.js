@@ -38,11 +38,9 @@ $('.autoplay').slick({
     ]
   });
 
-  function myFunction(x) {
-    x.classList.toggle("fa-heart-o");
-  }
-
-
+$('.wishlist a').click(function(){
+    $(this).find('i').toggleClass('fa-heart-o')
+});
 
 
 

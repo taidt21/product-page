@@ -2,10 +2,10 @@
      .container{
         max-width:1400px;
     }
-    header .container{
+    header .container,.velcro .container:first-child{
         max-width: 1640px;
     }
-   
+  
 }
 @media(max-width:992px){
     .cart-reponsive{
@@ -16,9 +16,7 @@
         flex-direction: column-reverse!important;
         justify-content: center!important;
     }
-    .product-1 .filterDiv img{
-            width:562px;
-    }
+   
     .boxs{
         flex-direction: row!important;
         justify-content:space-around;
@@ -33,8 +31,9 @@
         width: 562px;
         height: 687px;
     }
-    .product img{
-        margin: 0 !important;
+    
+    .product .slick-slide{
+        margin: 0 0 0 40px;
     }
     .product{
         padding-bottom: 198px!important;
