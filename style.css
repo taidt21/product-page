@@ -65,6 +65,21 @@ a{
     color: #a8a8a8;
     font-size: 14p;
 }
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: smaller!important;
+    width: 24px;
+    height: 24px;
+    padding: 3px;
+    background-clip: content-box;
+    border: 1px solid #b4b4b4;
+    border-radius: 50%;
+  }
+.form-check-input:checked[type=radio] {
+      background-image: none;
+}
 input[type=radio]:checked,input[type=radio]:active{
     box-shadow: none;
     background-color: #fff;
@@ -74,13 +89,13 @@ input[type=radio]{
     background-size: 85%;
 }
 #inlineRadio1{
-    background-image: url(img/Ellipse-1-copy-9.png);   
+    background-color: #dc8e6a;  
 }
 #inlineRadio2{
-    background-image: url(img/Ellipse-1copy-10.png);
+    background-color:#b36cd4 ;
 }
 #inlineRadio3{
-    background-image: url(img/Ellipse-1-copy-11.png);
+    background-color: #6adcd8;
 }
 .text-grey{
     color: #a8a8a8;
