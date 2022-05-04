@@ -70,6 +70,7 @@ a{
 }
 .show{
     display: block;
+    transition: opacity .15s linear;
 }
 .btn-guide{
     width: 148px;
