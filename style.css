@@ -19,6 +19,7 @@ a{
 .top-bar p{
     font-size: 10px;
     line-height: 59px;
+    letter-spacing: 2px;
 }
 .top-bar .close{
     top:21px;
@@ -28,6 +29,9 @@ a{
 
 
 /*MAIN HEAER*/
+.main-header{
+    height: 97px;
+}
 .eveland{
     letter-spacing: 3px;
 }
@@ -43,8 +47,17 @@ a{
     right:-11px;
 }
 /* SECTION VELCRO */
+.home_the-shop a{
+    font-weight: 500;
+}
 .text-grey-dark{
     color: #666;
+}
+.star img{
+    margin-right:7px;
+}
+.star img:last-child{
+    margin-right: 14px;
 }
 .box{
     background-color: rgb(241, 241, 241);
